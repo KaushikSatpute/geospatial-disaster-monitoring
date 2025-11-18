@@ -7,7 +7,7 @@ import plotly.express as px
 import datetime
 
 # News API Key
-api_key = 'ba4ae72940a44ff69bc820c01fdf9a90'  # Replace with your actual key
+api_key = 'Your API key here'  # Replace with your actual key
 
 if not api_key:
     st.error("API key is missing! Please set it in the script.")
@@ -237,3 +237,4 @@ st.markdown("""
 
 > Stay aware. Stay safe. 🌍
 """)
+
